@@ -8,17 +8,19 @@
     font-family: "poppins", sans-serif;
 }
 
-.container{
-    scroll-snap-type: y mandatory;
-    overflow-y: scroll;
-    height: 100vh;
+.container {
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  height: 100vh;
+  scroll-behavior: smooth;
 }
 
-section{
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    scroll-snap-align: start;
+section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  scroll-snap-align: start;
+  scroll-behavior: smooth;
 }
 
 
